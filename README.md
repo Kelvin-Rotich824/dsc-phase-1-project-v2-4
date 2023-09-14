@@ -1,4 +1,6 @@
 # dsc-phase-1-project-v2-4
+## Kelvin Kipyegon Rotich
+## DSF-FT06
 ## Overview.
 
 Microsoft is a multinational technology corporation that was founded by Bill Gates and Paul Allen in 1975. It has since become one of the world's leading software and technology companies. Its early success came from its operating system, MS-DOS, which was later succeeded by Windows. 
