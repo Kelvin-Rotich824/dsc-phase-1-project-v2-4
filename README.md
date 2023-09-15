@@ -17,7 +17,7 @@ The movie business has been around from as early as 1895. The industry was domin
 
 * To show how profitable the movie industry is based on the data.
 * To get some of the factors that lead to success in the movie industry based on the data.
-* To look for the correlation of some of these factors that lead to success.
+* To look for the strong relationships between some of these factors.
 
 ## Data Understanding.
 
@@ -88,7 +88,7 @@ We then went ahead and looked at the numeric column in the dataset. For this dat
 
 ![graph_9](https://github.com/Kelvin-Rotich824/dsc-phase-1-project-v2-4/assets/141912522/94c93959-4f46-461f-ad96-dd374098583e)
 
-The mean and median we found were $41958400 and $15536310 respectively. Based on the mean, median, and histogram, we saw that the dataset is positively skewed since the median was lower than the mean. This means that the majority of the data is concentrated on the left side of the distribution and there are relatively few extreme values on the right side. However, this was not enough for the study. We also need to find the measures of dispersion to see how the values are far from the mean. The standard deviation, lower and upper quartiles we found were $62630156, $2302444, and $52649522. Based on the standard deviation, the quartiles, and the boxplots, we saw that in the dataset, most of the data can be seen to spread out over a broader range relative to the mean. This means that there was a high degree of variability or dispersion in the dataset.
+The mean and median we found were $41958400 and $15536310 respectively. Based on the mean, median, and histogram, we saw that the dataset is positively skewed since the median was lower than the mean. This means that the majority of the data is concentrated on the left side of the distribution and there are relatively few extreme values on the right side. However, this was not enough for the study. We also need to find the measures of dispersion to see how the values are far from the mean. The standard deviation, lower and upper quartiles we found were $62630156, $2302444, and $52649522. Based on the standard deviation, the quartiles, and the boxplots, we saw that in the dataset, most of the data can be spread out over a broader range relative to the mean. This means that there was a high degree of variability or dispersion in the dataset.
 
 The univariate analysis showed us that the movie industry has earned a lot of revenue for their creation studios hence fulfilling our first objective of profitability in the movie industry.
 
@@ -104,7 +104,7 @@ We then went ahead and analyzed the second data frame. Here, we focused on the v
 
 ![graph_11](https://github.com/Kelvin-Rotich824/dsc-phase-1-project-v2-4/assets/141912522/b7f633eb-3bac-4da2-b1e5-d48896b4253d)
 
-We noticed that most of the vote counts had a vote average between 5 and 8. This showed that most of the people who voted gave from an average review to an above-average review of the movies they watched. This means that most people were impressed by the movies they watched. Microsoft should take a keen interest in the movie ratings if they want their movie business to appeal to their market.
+We noticed that most of the vote counts had a vote average between 5 and 8. This showed that most of the people who voted gave from an average review to an above-average review of the movies they watched. This means that most people were impressed by the movies they watched. This means that most people were impressed by the movies they watched. With this, we see that there is a relationship between movie reviews and the number of people who voted in these reviews. However, we opted to study more of this relationship in the next segment.
 
 We then went ahead and did the analysis on the third data frame. We went with the rating and box office columns. We also plotted a bar graph for representation.
 
@@ -116,7 +116,7 @@ We then went ahead and focused on the `movie_ratings` table in the database. We 
 
 ![graph_13](https://github.com/Kelvin-Rotich824/dsc-phase-1-project-v2-4/assets/141912522/651fee48-2ffd-426f-9ff1-3af404e4ee9a)
 
-We saw that most of the vote counts had a vote average between 6 and 8. This showed that most of the people who voted gave an above-average review of the movies they watched. This means that most people were impressed by the movies they watched.
+We saw that most of the vote counts had a vote average between 6 and 8. This showed that most of the people who voted gave an above-average review of the movies they watched. This means that most people were impressed by the movies they watched. With this, we see that there is a relationship between movie reviews and the number of people who voted in these reviews. However, we opted to study more of this relationship in the next segment.
 
 With the bivariate analysis, we can see that studios, movie ratings, number of reviewers, and review ratings are essential for movie success and these are some of the things Microsoft should be interested in before creating their movie company.
 
@@ -140,14 +140,16 @@ We then concluded the analysis by focusing on the tables in the database. In thi
 
 We saw that `averagerating` and `numvotes` had a low positive correlation. This means that even though there may be some tendency for the variables to increase together, it is not a strong or consistent pattern. This means that even though the correlation is low, Microsoft should not ignore it. On the contrary, they should use it as a reference when looking at the reviews of their movie company. 
 
-The multivariate analysis has shown which factors correlate well with each other and if improved will lead to profitability hence fulfilling our third objective.
+The multivariate analysis has proven that there is a strong relationship between domestic gross and foreign gross. There is also a strong relationship between review ratings and the number of people who voted in these reviews. 
 
 ## Conclusion.
 
 Based on the analysis we conducted, we can draw three conclusions.
 
 1. The movie industry is a very profitable business. However, more research should be done before Microsoft can join the movie business.
-2. Some of the factors that may bring success in the movie industry are the studios that made these movies and the movie ratings of these movies. 
-3. There is a very strong linear relationship between viewer ratings and number of viewer votes.
+2. Some of the factors that may bring success in the movie industry are the studios that made these movies, movie ratings, number of reviewers, and review ratings. 
+3. There is a strong relationship between domestic gross and foreign gross. There is also a strong relationship between review ratings and the number of people who voted in these reviews. 
+
+
 
 
